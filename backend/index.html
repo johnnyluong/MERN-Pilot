@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title> Index.html </title>
+</head>
+<body>
+    <form method="POST" action="/users/add">
+        <label> Name: </label>
+        <input type="name" name="name"></input> <br>
+        <label> Email: </label>
+        <input type="email" name="email"></input> <br>
+        <label> Bio: </label>
+        <input type="text" name="bio"></input> <br>
+        <button type="submit"> Create User! </button>
+    </form>
+    <br>
+    <br>
+    <form method="POST" action="/tweets/add">
+        <label> UserId: </label>
+        <input type="text" name="userId"></input> <br>
+        <label> Tweet: </label>
+        <input type="text" name="text"></input> <br>
+        <label> Date: </label>
+        <input type="text" name="date"></input> <br>
+        <button type="submit"> Tweet! </button>
+    </form>
+</body>
+</html>
